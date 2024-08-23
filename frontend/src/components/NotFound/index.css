@@ -1,0 +1,31 @@
+.not-found-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width:100%;
+}
+.not-found-title{
+    font-family: "Roboto";
+    color:#151617;
+    font-size: 24px;
+}
+.not-found-img{
+    padding:10px;
+}
+.nav-link{
+    text-decoration: none;
+}
+.go-home-btn{
+    width:160px;
+    height:40px;
+    border-radius:8px;
+    background-color: #f0a243;
+    color:black;
+    font-family: "Roboto";
+    font-size: 20px;
+    outline:none;
+    cursor:pointer;
+    border:0;
+}
