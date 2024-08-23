@@ -53,7 +53,7 @@ const BookingForm = () => {
   
 
   const getMentors=async()=>{
-    const url=`https://career-carve-assignment-omega.vercel.app/form/?course=${course}&date=${selectedDate}&duration=${timeDuration}`
+    const url=`http://localhost:5000/form/?course=${course}&date=${selectedDate}&duration=${timeDuration}`
     const options={method:"GET"}
     const response = await fetch (url,options)
     const data= await response.json()
